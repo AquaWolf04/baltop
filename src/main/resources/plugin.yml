@@ -1,0 +1,13 @@
+name: BalTop
+version: '${project.version}'
+main: com.aquawolf04.BalTop
+api-version: 1.18
+author: aquawolf04
+depend: [Vault]
+commands:
+  baltop:
+    description: Show your balance
+    usage: /baltop
+    aliases: [bal, balance, balancetop, money]
+    permission: baltop.baltop
+    permission-message: You don't have <permission>
